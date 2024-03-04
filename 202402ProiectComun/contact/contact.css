@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#141e4c;
+}
+.navbar-and-title {
+    background-color:#141e4c;
+ 
+}
+@media screen and (max-width: 770px) {
+    nav-home {
+      display: none;
+    }
+  }
+.nav-home{
+    position:fixed;
+    z-index: 999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #141e4c;
+    width: 100%;
+}
+.navlist-home{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navlist-home li{
+   padding-right: 30px;
+}
+
+.navlist-home li:hover{
+    color:orange;
+}
+
+.navbar-categories:hover{
+    color: orange;
+    
+}
+
+.navlist-home a{
+    color: white;
+    text-decoration: none;
+}
+.btn-dropdown{
+   
+    background: transparent;
+    border: none;
+}
+
+.dropdown-menu-costum{
+    background-color: #141e4c;
+    color: white;
+}
+.btn.show{
+    background-color:transparent;
+}
+.btn:hover{
+    background-color:transparent;
+    color: orange;
+
+}
+.dropdown-item:hover{
+    color:orange;
+    background-color: #141e4c;
+}
+.h1-contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    color: white;
+    font-weight: bold;
+
+}
+.informatii-generale {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.informatii-generale h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.informatii-generale p {
+    text-align: justify;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.date-it-school {
+    display: flex;
+    width: 50%;
+    
+}
+.date-it-ul {
+   list-style: none;
+}
+.formular-contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.butontrimtie {
+    margin-left: 650px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #2bb686;
+    color: white;
+    background-color:#2bb686;
+}
+.date-it-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid gray;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
